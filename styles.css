@@ -1,0 +1,151 @@
+/* global styling */
+.font{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+   overflow-x: hidden;
+}
+.grey{
+  color:#B2B2B2;
+}
+/* navbar styles */
+.nav-bg{
+  background-color: #181818;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 60px;
+}
+.nav-item{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+a{
+  text-decoration:  none;
+}
+.section-pad{
+  padding-top: 200px;
+}
+.section-heading{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 70px;
+}
+/* media query */
+
+@media only screen and (min-width: 768px) {
+  .bg-img{
+    background-image: url("images/desktop.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+  }
+  .center{
+    padding-top: 300px;
+    height: 720px;
+  }
+  .navbar-brand{
+    margin-left: 60px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .sub-heading{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .heading{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .about-heading{
+    font-size: 130px;
+    font-weight: 900;
+    text-align: center;
+    color: #B2B2B2;
+    opacity: 0.4;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bg-img{
+    background-image: url("images/android.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+  }
+  .center{
+    padding-top: 250px;
+    height: 670px;
+  }
+  .navbar-brand{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .sub-heading{
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .heading{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+  .about-heading{
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    color: #B2B2B2;
+    opacity: 0.4;
+  }
+}
+
+/* home styling */
+.fade-in-text {
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* ABOUT styling */
+.sub-heading2{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/* skill styles */
+.skill-item{
+  font-size: 25px;
+}
+
+/* get in touch */
+.touch-bg{
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.touch-element{
+  width: 100%;
+  color: #fff;
+  background: none;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: #fff 3px solid;
+}
